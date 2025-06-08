@@ -68,5 +68,7 @@ h2 {
 /* Use Bootstrap breakpoint for XL screens */
 @media screen and (min-width: 1200px) {
     /* Fixes all portfolio cards being too tall on XL screens */
-    min-height: auto;
+    #portfolio .card-text {
+        min-height: auto;
+    }
 }
